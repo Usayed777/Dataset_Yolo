@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Canopy-Citrus']
+
+roboflow:
+  workspace: object-detection-workspace
+  project: citrus-canopy-f9c3l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-workspace/citrus-canopy-f9c3l/dataset/1
